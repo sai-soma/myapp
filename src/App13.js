@@ -6,7 +6,7 @@ export default function App13() {
     const addStudent = () => {
         setStudents((prevStudents) => [...prevStudents, student]);
     };
-    const deleteStudent = () => {
+    const deleteStudent = (name) => {
         setStudents(students.filter((e)=> e.name !== name));
     }
     const editStudent = (value) => {
@@ -30,7 +30,7 @@ export default function App13() {
         </p>
         <p>
             <input
-                type='number' 
+                type='text' 
                 value={student.age}
                 onChange=
                 {(e) => setStudent((prevStudent) => 
@@ -49,7 +49,7 @@ export default function App13() {
         </p>
         <div>
             {students &&
-            students.map()((value,index) =>(
+            students.map((value,index) =>(
                 <div key={index}>
                     {value.id}-{value.name}-{value.age} -
                 <button onClick={() => deleteStudent(value)}>Delete</button>

@@ -52,8 +52,8 @@ export default function App13() {
             students.map((value,index) =>(
                 <div key={index}>
                     {value.id}-{value.name}-{value.age} -
-                <button onClick={() => deleteStudent(value)}>Delete</button>
-                <button onClick={() => editStudent(value)}>Edit</button>
+                <button onClick={() => deleteStudent(value.name)}>Delete</button>
+                <button onClick={() => editStudent(value.name)}>Edit</button>
                 </div>
             ))
 }

@@ -1,0 +1,8 @@
+.Failed{
+    color: red;
+    font-weight: bold;
+}
+.Success{
+    color: chartreuse;
+    font-weight: bold;
+}

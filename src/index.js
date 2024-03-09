@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './Fruits.css';
 import Fruits from './Fruits';
-import App13 from './App13';
+import App14 from './App14';
 import App1 from './App1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,5 +12,5 @@ root.render(
 <hr></hr>
 <div id="products" class="main"><Fruits /></div>
 </> */
-<App13 />
+<App14 />
 );

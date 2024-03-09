@@ -6,8 +6,9 @@ import Fruits from './Fruits';
 import App14 from './App14';
 import App from './App';
 import App15 from './App15';
+import App16 from './App16';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<App15 />
+<App16 />
 );

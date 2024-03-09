@@ -8,9 +8,5 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  /* <> <div><h1 id='titlee'>Fruits</h1></div>
-<hr></hr>
-<div id="products" class="main"><Fruits /></div>
-</> */
-<App />
+<App14 />
 );

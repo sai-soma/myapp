@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import './App14.css';
 export default function App13() {
-    const [access,setAccess] =useState({access:"",status:""});
+    const [access,setAccess] =useState({msg:"",status:""});
     const f1 = () => {
         let name=document.getElementById("t1").value;
         let pass=document.getElementById("t2").value;
         console.log(name);
         console.log(pass);
         if (name=="john" && pass=="pass1234") {
-            setAccess({access:"Access Granted",status:"Success"})
+            setAccess({msg:"Access Granted",status:"Success"})
         } else {
-            setAccess({access:"Access Denied",status:"Failed"})
+            setAccess({msg:"Access Denied",status:"Failed"})
 
         }
     };
@@ -37,7 +37,7 @@ export default function App13() {
                 onClick={f1} 
             value='Add'></input>
         </p>
-        <p className={access.status} >{access.access}</p>
+        <p className={access.status} >{access.msg}</p>
     </form>
   )
 }

@@ -5,13 +5,10 @@ export default function App13() {
     const f1 = () => {
         let name=document.getElementById("t1").value;
         let pass=document.getElementById("t2").value;
-        console.log(name);
-        console.log(pass);
-        if (name=="john" && pass=="pass1234") {
+        if (name.toLowerCase()==="john" && pass==="pass1234") {
             setAccess({msg:"Access Granted",status:"Success"})
         } else {
             setAccess({msg:"Access Denied",status:"Failed"})
-
         }
     };
   return (

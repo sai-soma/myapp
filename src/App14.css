@@ -6,3 +6,11 @@
     color: chartreuse;
     font-weight: bold;
 }
+form{
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+}

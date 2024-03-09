@@ -12,5 +12,5 @@ root.render(
 <hr></hr>
 <div id="products" class="main"><Fruits /></div>
 </> */
-<App14 />
+<App />
 );

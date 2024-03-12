@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Feeds from "./Feeds";
-import Posts from "./Posts";
+import Posts from "./Post";
 import Comments from './Comments';
 import Album from './Album';
 
@@ -20,3 +20,4 @@ export default function App15() {
   </div>
   )
 }
+

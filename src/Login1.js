@@ -14,6 +14,8 @@ if (flag == 1) {
   return (
     <>
     <div>Login1</div>
+    <input type='text'/><br/>
+    <input type='text'/><br/>
     <button onClick={()=>setFlag((prev)=>1)}>Login</button>
     <button onClick={()=>setFlag((prev)=>2)}>Create Account</button>
     {console.log(flag)}

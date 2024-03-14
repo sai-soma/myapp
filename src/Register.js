@@ -1,13 +1,25 @@
 import React, { useContext } from 'react'
-import Home1 from './Home1'
+import './Register.css'
 import { UserContext } from './App13a'
 
 export default function Register() {
     const {flag,setFlag}=useContext(UserContext);
   return (
     <>
-    <div>Register</div>
-    <button onClick={() => setFlag((prevState) => 1)}>Submit</button>
+    <div className='Register-model'>
+    <div className='Register-model-content'>
+    <div className="Register-header">
+          <div className="Register-signup-title">Register</div>
+          <div onClick={() => setFlag(() => 0)} className="close">
+            &times;
+          </div>
+        </div>
+    <input type='text'></input><br></br>
+    <input type='text'></input><br></br>
+    <input type='text'></input><br></br>
+    <button onClick={() => setFlag((prevState) => 2)}>Submit</button>
+    </div>
+    </div>
     </>
   )
 }
